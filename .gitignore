@@ -1,0 +1,31 @@
+# Virtual environment
+nnunet_venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+
+# Model checkpoints
+*.ckpt
+*.pth
+*.pt
+
+# Data files
+*.npy
+*.npz
+*.pkl
+*.nii.gz
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,26 @@
+name: nnunet
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch==2.3.1+cu118
+    - torchvision==0.18.1+cu118
+    - torchaudio==2.3.1+cu118
+    - --extra-index-url https://download.pytorch.org/whl/cu118
+    - nnunetv2>=2.6
+    - numpy>=2.0
+    - scipy>=1.10
+    - nibabel>=5.0
+    - zarr>=3.0
+    - numcodecs
+    - scikit-image>=0.20
+    - scikit-learn
+    - tifffile
+    - tqdm
+    - matplotlib
+    - pandas
